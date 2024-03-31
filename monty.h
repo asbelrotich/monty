@@ -47,7 +47,8 @@ typedef struct instruction_s
 {
 	char *opcode;
 	void (*f)(stack_t **stack, unsigned int line_number);
-}
-instruction_t;
+}instruction_t;
 void execute(char *argv);
+int get_opc(stack_t **stack, char *arg, char *val, int line_number);
+void push(stack_t **stack, unsigned line_number);
 #endif
