@@ -3,7 +3,7 @@
  * main - entry point
  * @argc: argument counter
  * @argv: argument vector
- * Return: success or failure
+ * Return: success or return failure
  */
 int main(int argc, char **argv)
 {
